@@ -1,0 +1,15 @@
+# ============================================================================
+# PYTHON PACKAGE REQUIREMENTS FOR: explore.guardrails
+# ============================================================================
+
+guardrails-ai >= 0.4.5
+pydantic >= 2.7.3
+
+# -- BUILD-SYSTEM
+invoke
+git+https://github.com/jenisys/invoke-cleanup@v0.3.7
+
+# -- TESTING: Unit tests and behave self-tests.
+pytest >= 5.0
+pytest-html >= 2.0
+assertpy >= 1.1
