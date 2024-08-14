@@ -85,7 +85,7 @@ class CucumberExpressionMatch(Validator):
     ## Requirements
 
     * Dependencies:
-        - guardrails-ai>=0.4.5
+        - guardrails-ai>=0.5.0
         - cucumber-expressions>=17.1.0
         - rstr>=3.2.2
 

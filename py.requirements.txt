@@ -3,7 +3,7 @@
 # ============================================================================
 # MAYBE: vale -- https://vale.sh/docs/topics/config/
 
-guardrails-ai >= 0.4.5
+guardrails-ai >= 0.5.4
 cucumber-expressions
 rstr
 

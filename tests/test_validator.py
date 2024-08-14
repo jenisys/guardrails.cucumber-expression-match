@@ -1,15 +1,9 @@
 from cucumber_expression_match import CucumberExpressionMatch
 from cucumber_expression_match import ParameterType
 from guardrails import Guard, OnFailAction
-from guardrails.validator_base import (
-    PassResult,
-    FailResult,
-    ValidationResult
-)
-from guardrails.guard import (
-    ValidationOutcome,
-    ValidationError
-)
+from guardrails.errors import ValidationError
+from guardrails.guard import ValidationOutcome
+from guardrails.validator_base import PassResult, FailResult
 import pytest
 
 
@@ -88,6 +82,5 @@ class TestCucumberExpressionMatch:
         )
         with pytest.raises(ValidationError) as exc_info:
             _result = guard.parse(bad_text)
-
         expected = f"Validation failed for field with errors: Result must match: {self.EXPRESSION}"
         assert str(exc_info.value) == expected
