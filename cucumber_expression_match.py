@@ -32,7 +32,7 @@ import pytest
 # -----------------------------------------------------------------------------
 # PACKAGE METADATA
 # -----------------------------------------------------------------------------
-__version__ = "0.2.1"
+__version__ = "0.3.0"
 __license__ = "MIT"
 
 
@@ -47,6 +47,7 @@ class CucumberExpressionMatch(Validator):
     | Developed by        | jenisys        |
     |---------------------|----------------|
     | Date of development | 2024-06-22     |
+    | Last updated        | 2024-10-30     |
     | Validator type      | rule-following |
     | License             | MIT            |
     | Input/Output        | Output         |
@@ -85,7 +86,7 @@ class CucumberExpressionMatch(Validator):
     ## Requirements
 
     * Dependencies:
-        - guardrails-ai>=0.5.0
+        - guardrails-ai>=0.5.15
         - cucumber-expressions>=17.1.0
         - rstr>=3.2.2
 

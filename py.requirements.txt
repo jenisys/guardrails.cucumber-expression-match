@@ -2,20 +2,20 @@
 # PYTHON PACKAGE REQUIREMENTS FOR: explore.guardrails
 # ============================================================================
 # MAYBE: vale -- https://vale.sh/docs/topics/config/
+# MAYBE: pydantic >= 2.7.3
 
-guardrails-ai >= 0.5.4
-cucumber-expressions
-rstr
-
-# pydantic >= 2.7.3
+guardrails-ai >= 0.5.15
+guardrails-api-client >= 0.3.13
+cucumber-expressions >= 17.1.0
+rstr >= 3.2.2
 
 # -- BUILD-SYSTEM
 # PREPARED: invoke
 # PREPARED: git+https://github.com/jenisys/invoke-cleanup@v0.3.7
 
 # -- DEVELOP:
-ruff
-pyright
+ruff >= 0.7.1
+pyright >= 1.1.386
 codespell >= 2.3.0
 
 # -- TESTING: Unit tests and behave self-tests.

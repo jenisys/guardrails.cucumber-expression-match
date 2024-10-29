@@ -3,7 +3,8 @@ guardrails.cucumber-expression-match
 
 | Developed by        | jenisys        |
 |---------------------|----------------|
-| Date of development | 2024-08-14     |
+| Date of development | 2024-06-22     |
+| Last updated        | 2024-10-30     |
 | Validator type      | rule-following |
 | License             | MIT            |
 | Input/Output        | Output         |
@@ -43,7 +44,7 @@ Check if text follows a specified schema (described by this cucumber-expression)
 
 * Dependencies:
 
-  - `guardrails-ai>=0.5.4`
+  - `guardrails-ai>=0.5.15` (up-to: `0.6.0`)
   - `cucumber-expressions>=17.1.0`
   - `rstr>=3.2.2`
 
